@@ -36,7 +36,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
         setSupportActionBar(binding?.toolbarExercise)
 
-        // to add a back button (<-) on the toolbar
+        // to add a back button (<-) on the toolbar //
         if(supportActionBar != null){
             supportActionBar?.setDisplayHomeAsUpEnabled(true)
         }
